@@ -1,0 +1,30 @@
+Member Water Charges Sonamukhi 30 0 0.12
+Member Land Rental Sonamukhi 26 0 0 5 0.05
+Member Land Rental Ghagra 22 12 8 5 0.0
+Member Water Charges 30 0 0.12
+Non-Member Water Charges 40 0 0.12
+Member Electricity Charges 10 5 5 0.10
+Member Develpoment Tax 10
+Member Admission Fee 10
+Member Share Money 10
+Member Mutation Fee 10
+Member Survey Cost 10
+Member uspense 10
+Non-Member Water Supply 10
+Non-Member Develpoment Tax 10
+Shopkeeper Develpoment Tax 10
+Shopkeeper Electricity Charges 10
+Shopkeeper Donation 10
+Shopkeeper Security Deposit 10
+Other Burning Ghat Certificate 20
+Other Community Hall Maintenance 40
+Other Guest House Maintenance 50
+Other Stationery and Printing 80
+Other Conservancy/Garbage Cleaning 10
+Other Collection From Cremation Ground 10
+Other Earnest Money Deposit 10
+Other Collection From Library 10
+Other Advance Recoup 10
+Other Arrear Dues 10
+
+

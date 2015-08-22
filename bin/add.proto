@@ -1,0 +1,41 @@
+package tutorial;
+
+option java_package = "com.example.tutorial";
+option java_outer_classname = "AddressBookProtos";
+
+message Person{
+	required string user_type=1;
+	required string title = 2;
+	required string name= 3;
+	enum guardianType{
+		Father =0 ;
+		Husband =1 ;
+	}
+	message guardian {
+		required string guardianName =1 ;
+		optional guardianType type= 2 [default = Father];
+	}
+	required guardian nameGuardian = 4;
+	required string SocietyPlotNumber = 5;
+	required string ShopNo = 6;
+	required string address =7;
+	repeated string contactNumber = 8;
+	required double plotArea =9;
+	required string Mouza = 10;
+	required string emailID = 11;
+	enum arrearDues{
+		landRent =0;
+		waterCharges = 1;
+		licenseFee = 2;
+		electricityCharge = 3;
+		conservancy = 4;
+	}
+	message due {
+		required string arrearDues =1 ;
+		optional arrearDues type= 2 [default = landRent];
+	}
+	repeated due dueList = 12;
+	optional float previousMeterReading = 13;
+	optional float currentMeterReading = 14;
+	required  int64 date =15 ;	 
+}

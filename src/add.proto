@@ -1,0 +1,41 @@
+package tutorial;
+
+option java_package = "com.example.tutorial";
+option java_outer_classname = "AddressBookProtos";
+
+message Person{
+	required string user_type=1;
+	required string title = 2;
+	required string name= 3;
+	required string nameGuardian = 4;
+	required string SocietyPlotNumber = 5;
+	required string ShopNo = 6;
+	required string address =7;
+	repeated string contactNumber = 8;
+	required double plotArea =9;
+	required string Mouza = 10;
+	required string emailID = 11;
+	required int32 AD_LandRent=12;
+        required int32 WC_Charges=13;
+        required int32 AD_Conservancy=14;
+        required int32 LF_Fee=15;
+        required int32 AD_ElectricityCharges=16;
+	required int32 previousMeterReading = 17;
+        required int64 ID=18;
+        required int32 LR_StreetLight=19;
+        required int32 LR_DevTax=20;
+        required int32 LR_ExDevTax=21;
+        required int32 LR_Rent=22;
+        required int32 LR_Interest=23;
+        required int32 LR_Rebate=24;
+        required int32 WC_Interest=25;
+        required int32 WC_DevTax=26;
+        required int32 EC_Interest=27;
+        required int32 EC_MeterRent=28;
+        required int32 EC_FuseCall=29;
+        required int32 EC_Rent=30;
+        required int32 LF_Rebate=31;
+        required int32 LF_Interest=32;
+        required int32 currentMeterReading=33;
+        required int32 monthlyLicenseFee=34;        
+}
